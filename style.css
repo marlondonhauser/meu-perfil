@@ -38,9 +38,24 @@ header {
 }
 
 section {
-  background: #bcbdbd;
+  display: flex;
+  background: #dadada;
   margin-top: 16px;
+  padding: 7px;
   width: 90%;
   height: 120px;
   border-radius: 5px;
+  box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+button {
+  border: 0;
+  background: #f55f2a;
+  width: 90%;
+  height: 48px;
+  margin-top: 32px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
 }
